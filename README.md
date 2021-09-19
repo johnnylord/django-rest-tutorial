@@ -19,3 +19,8 @@ $ python3 manage.py runserver 0.0.0.0:8000
 ```bash
 $ curl http://localhost:8000/rest/tutorial
 ```
+Or you can use `http` to send request
+```bash
+$ sudo apt-get install httpie
+$ http --json http://localhost:8000/rest/tutorial
+```
