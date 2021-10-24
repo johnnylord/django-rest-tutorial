@@ -9,3 +9,4 @@ class EchoView(APIView):
 
     def get(self, request):
         return Response(data={ 'echo': 'hello world' }, status=200)
+
